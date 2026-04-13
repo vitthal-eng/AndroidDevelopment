@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/btnCall"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/call"
+        android:background="@drawable/bgcolor2"
+        android:scaleType="centerInside"/>
+    <ImageButton
+        android:id="@+id/btnSms"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/message"
+        android:background="@drawable/bgcolor2"
+        android:scaleType="centerInside"/>
+    <ImageButton
+        android:id="@+id/btnWhatsapp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/whatsapp"
+        android:background="@drawable/bgcolor2"
+        android:scaleType="centerInside"/>
+
+</LinearLayout>
