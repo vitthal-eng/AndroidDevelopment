@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="Set Alarm"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Date Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Select Date"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnDate"
+                    android:text="Choose Date"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Time Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Select Time"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TimePicker
+                    android:id="@+id/timePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:timePickerMode="clock"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Ringtone Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Ringtone"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnRingtone"
+                    android:text="Select Ringtone"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Set Alarm Button -->
+        <Button
+            android:id="@+id/btnSetAlarm"
+            android:text="SET ALARM"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:backgroundTint="#6200EE"
+            android:padding="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
