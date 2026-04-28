@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="First Name"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Last Name"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Action"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+        <TextView android:text="10:00 AM" android:padding="8dp"/>
+        <TextView android:text="aryan" android:padding="8dp"/>
+        <TextView android:text="rajmane" android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="Click"
+            android:padding="4dp"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+        <TextView android:text="11:30 AM" android:padding="8dp"/>
+        <TextView android:text="vitthal" android:padding="8dp"/>
+        <TextView android:text="kadam" android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Click"
+            android:padding="4dp"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+        <TextView android:text="01:00 PM" android:padding="8dp"/>
+        <TextView android:text="Avishkar" android:padding="8dp"/>
+        <TextView android:text="padwal" android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="Click"
+            android:padding="4dp"/>
+    </TableRow>
+
+</TableLayout>
